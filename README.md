@@ -4,12 +4,12 @@ Hyperledger Composer is one of the open source blockchain frameworks. Here we ha
 
 ## Operating System 
 
-erdicem@ubuntu:~$ lsb_release -a 
-No LSB modules are available.
-Distributor ID:	Ubuntu
-Description:	Ubuntu 18.04.6 LTS
-Release:	18.04
-Codename:	bionic
+# erdicem@ubuntu:~$ lsb_release -a 
+# No LSB modules are available.
+# Distributor ID:	Ubuntu
+# Description:	Ubuntu 18.04.6 LTS
+# Release:	18.04
+# Codename:	bionic
 
 ## Requirements 
 
@@ -21,13 +21,12 @@ npm install -g composer-playground@0.20
 
 ## Build Project 
 
-cd ~/fabric-dev-servers
-    export FABRIC_VERSION=hlfv12
-    ./startFabric.sh
-    ./createPeerAdminCard.sh
+# cd ~/fabric-dev-servers
+#     export FABRIC_VERSION=hlfv12
+#     ./startFabric.sh
+#     ./createPeerAdminCard.sh
   
-
-composer-playground
+# composer-playground
 
 ### You will see this pages 
 
